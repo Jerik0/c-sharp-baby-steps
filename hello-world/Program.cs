@@ -24,14 +24,13 @@ namespace helloworld
 
             try
             {
-                var number = "1234";
-                //int num = Convert.ToInt32(number); *works fine*
-                byte num = Convert.ToByte(number);
-                Console.WriteLine(num);
+                string str = "true";
+                bool boolean = Convert.ToBoolean(str);
+                Console.WriteLine(boolean);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("The number could not be converted to a byte.");
+                Console.WriteLine("The variable could not be converted.");
             }
         }
     }

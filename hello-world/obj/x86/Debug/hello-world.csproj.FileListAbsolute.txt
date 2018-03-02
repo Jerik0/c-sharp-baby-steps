@@ -1,0 +1,5 @@
+/Users/jerik0/Projects/hello-world/hello-world/bin/Debug/hello-world.exe
+/Users/jerik0/Projects/hello-world/hello-world/bin/Debug/hello-world.pdb
+/Users/jerik0/Projects/hello-world/hello-world/obj/x86/Debug/hello-world.csproj.CoreCompileInputs.cache
+/Users/jerik0/Projects/hello-world/hello-world/obj/x86/Debug/hello-world.exe
+/Users/jerik0/Projects/hello-world/hello-world/obj/x86/Debug/hello-world.pdb

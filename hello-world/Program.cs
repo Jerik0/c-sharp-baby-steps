@@ -15,11 +15,24 @@ namespace helloworld
             //EXPLICIT data conversion using casting.
 
             int k = 1000;
-            byte b3 = (byte)k; //loss because k is larger than 255.
+            byte b3 = (byte)k; //results in loss because k is larger than 255.
 
-            Console.WriteLine("{0} {1}", b, i);
-            Console.WriteLine(b2);
-            Console.WriteLine(b3);
+            //Console.WriteLine("{0} {1}", b, i);
+            //Console.WriteLine(b2);
+            //Console.WriteLine(b3);
+            //===========================================
+
+            try
+            {
+                var number = "1234";
+                //int num = Convert.ToInt32(number); *works fine*
+                byte num = Convert.ToByte(number);
+                Console.WriteLine(num);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("The number could not be converted to a byte.");
+            }
         }
     }
 }

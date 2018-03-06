@@ -15,7 +15,7 @@ namespace helloworld
             //EXPLICIT data conversion using casting.
 
             int k = 1000;
-            byte b3 = (byte)k; //results in loss because k is larger than 255.
+            byte b3 = (byte) k; //results in loss because k is larger than 255.
 
             //Console.WriteLine("{0} {1}", b, i);
             //Console.WriteLine(b2);
@@ -32,6 +32,7 @@ namespace helloworld
             {
                 Console.WriteLine("The variable could not be converted.");
             }
+            //===========================================
         }
     }
 }

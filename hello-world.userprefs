@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{8EEED9C5-CF10-424F-B5AB-6520F629596F}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="hello-world/Program.cs">
     <Files>
-      <File FileName="hello-world/Program.cs" Line="1" Column="1" />
+      <File FileName="hello-world/Program.cs" Line="38" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -10,4 +10,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.hello-world PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
